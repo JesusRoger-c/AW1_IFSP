@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+}
+
+div {
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    border: 1px solid #096774;
+    border-width: 1px 2px 1px 2px;
+    border-style: dotted solid;
+    background-color: #096774;
+    margin: 20px 10px 20px 30px;
+    padding: 0px 0px;
+    border-radius: 5%;
+    text-align: center;
+
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    border-radius: 5%;
+
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(154, 28, 28);
+}
+
+p {
+    color: white;
+    font-size: larger;
+}
