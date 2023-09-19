@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #242424;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 900;
+    color: #000;
+
+}
+
+.module-1 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    display: block;
+    background-color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section.module p {
+    margin-bottom: 40px;
+}
+
+section.module:last-child {
+    margin-bottom: 0;
+}
+
+section.module h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+
+}
+
+section.module.content {
+    padding: 40px 0;
+    background: white;
+}
+
+section.module.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+
+
+section.module.parallax-1 {
+    background-image: url(iphone15.jpeg);
+}
+
+section.module.parallax:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -moz- linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 40%, #000 100%);
+    background: -webkit- linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 40%, #000 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 40%, #000 100%);
+}
+
+
+section.module.parallax-2 {
+    background-image: url(capinha.jpeg);
+}
+
+
+section.module.parallax-3 {
+    background-image: url(fone.jpg);
+}
+
+section.module.parallax h1{
+    color: white;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
+
+}
+.row {
+    margin: 0;
+}
+
+.container {
+
+    padding: 70px 0;
+    
+
+}
+
+h1{
+    color: #8258b5;
+}
+
+p,li{
+    color:#444;
+    font-size: 14px;
+}
+
+header, .navbar{
+    background-color: black;
+}
+
+#nav-container{
+padding-top:  0; 
+padding-bottom: 0;
+
+}
+
+.navbar-brand{
+    padding: 0;
+    color: #fff;
+}
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.navbar-expand-lg .nav-nav .nav-link{
+    padding: 1rem .8rem;
+    
+   
+}
+.nav-item {
+color: white;
+}
+footer ul {
+    display: flex;
+    list-style: none;
+}
+.copy {
+    margin-top: 15px;
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+}
+footer a {
+    margin-left: 30px;
+    color: #8258b5;
+    text-decoration: none;
+    font-size: 17px;
+}
+footer {
+    margin-top: 30px;
+    background-color: black;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
