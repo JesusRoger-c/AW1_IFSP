@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Js:Eventos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="evento.js"></script>
+
+
+    <form>
+        <label for="nome">Digite seu nome:</label>
+        <input type="text" id="nome" required>
+        <button type="button" onclick="dizerBomDia()">Enviar</button>
+    </form>
+
+    <label for="numero">Digite um número:</label>
+    <input type="text" id="numero">
+    <button type="button" onclick="verificarParOuImpar()">Verificar</button>
+
+
+    <h2>Calculadora</h2>
+    <select id="operacao">
+        <option value="soma">Soma</option>
+        <option value="subtracao">Subtração</option>
+    </select>
+    <input type="text" id="num1">
+    <input type="text" id="num2">
+    <button type="button" onclick="calcular()">Calcular</button>
+    <p id="resultado"></p>
+</body>
+
+</html>
