@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="ícone-notícia.ico">
+
+    <title>Her Mind - Urias</title>
+</head>
+
+<body>
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="close-button" onclick="closePopup()">&times;</span>
+            <h2>Deseja Receber as músicas novas?</h2>
+            <p>Receba as músicas novas da Uri</p>
+            <div class="popup-buttons">
+                <button onclick="allowNotifications()">Sim</button>
+                <button onclick="closePopup()">Não</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Album Her Mind</h1>
+        <header class="header">
+            <nav class="navbar">
+
+                <a href="https://www.instagram.com/uriasss/">Instagram</a>
+                <a href="#">Agenda</a>
+                <a href="#">Sobre mim</a>
+                <a href="#">Letras</a>
+            </nav>
+
+            <div class="pesquisa">
+                <input type="search" placeholder="Qual Música?" id="menu-de-busca">
+                <a href="#" class="btn">Buscar</a>
+            </div>
+        </header>
+
+
+
+        <div class="container-noticias">
+            <a href="https://www.youtube.com/watch?v=8eHzrHzSZnk"
+                class="card">
+                <div class="headline">
+                    <h2>Je Ne Sais Quoi</h2>
+                </div>
+                <div class="news-image">
+                    <img src="Uri1.jpeg" alt="urias">
+                </div>
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=YuV0Q9mOqWo"
+                class="card">
+                <div class="headline">
+                    <h2>Suave</h2>
+                </div>
+                <div class="news-image">
+                    <img src="uri2.jpg" alt="">
+                </div>
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=PwDqQKcz5IE"
+                class="card">
+                <div class="headline">
+                    <h2>Rolling</h2>
+                </div>
+                <div class="news-image">
+                    <img src="uri3.jpg" alt="">
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="copy">
+            Copyright © 2023 Feito por <a href="#">Roger Costa</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
